@@ -1,6 +1,7 @@
 # alpaca_finetune_sentiment_analysis
 
-The model is available on Hugging Face 
+The model is a finetuned labeled dataset: https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp
+
 ## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
