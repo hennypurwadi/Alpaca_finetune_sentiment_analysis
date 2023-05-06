@@ -1,4 +1,4 @@
-# alpaca_finetine_sentiment_analysis
+# alpaca_finetune_sentiment_analysis
 
 The model is available on Hugging Face 
 ## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
