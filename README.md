@@ -6,13 +6,18 @@ The model is available on Hugging Face
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
 ---
 language: en
+
 license: MIT
+
 datasets:
 - custom
+
 task_categories:
 - text-classification
+
 task_ids:
 - sentiment-classification
+
 ---
 
 ```python
