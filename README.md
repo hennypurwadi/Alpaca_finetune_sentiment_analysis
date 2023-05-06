@@ -1,6 +1,6 @@
 # alpaca_finetune_sentiment_analysis
 
-The model is a finetuned labeled dataset: https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp
+The labeled dataset used to fine-tune the Alpaca model can be found at https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp. 
 
 ## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
 
