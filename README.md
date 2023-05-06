@@ -24,7 +24,6 @@ task_ids:
 
 import os
 import sys
-
 import fire
 import gradio as gr
 import torch
