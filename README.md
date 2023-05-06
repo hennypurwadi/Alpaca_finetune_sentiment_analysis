@@ -1,7 +1,7 @@
 # alpaca_finetine_sentiment_analysis
 
 The model is available on Hugging Face 
-## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
+## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments/blob/main/README.md
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
 ---
