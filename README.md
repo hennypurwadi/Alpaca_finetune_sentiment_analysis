@@ -53,7 +53,7 @@ from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
     --lora_weights 'RinInori/alpaca_finetune_6_sentiments' \
     --share_gradio
 
-#Click on output(For example:)
-Running on local URL:  http://
+#Click on output
+Running on local URL:  http://......................
 
-Running on public URL: https://
+Running on public URL: https://.....................
