@@ -1,5 +1,10 @@
 # alpaca_finetune_sentiment_analysis
 
+Alpaca-LoRA is an open-source project that reproduces results from Stanford Alpaca using Low-Rank Adaptation (LoRA) techniques. It provides an Instruct model of similar quality to text-davinci-003.
+Alpaca-LoRA uses the resource-efficient low-rank adaptation (LoRA) method, also widely used in Stable Diffusion, with Meta’s LLaMA to achieve results comparable to Alpaca
+
+Alpaca-LoRA uses the resource-efficient low-rank adaptation (LoRA) method, also widely used in Stable Diffusion, with Meta’s LLaMA to achieve results comparable to Alpaca
+
 The labeled dataset used to fine-tune the Alpaca model can be found at:
 
 https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?select=train.txt
