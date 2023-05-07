@@ -6,7 +6,7 @@ Alpaca formula is open source, but may not be used commercially. However, the LL
 
 -----------------
 
-The labeled dataset I used to fine-tune the Alpaca model can be found at: 
+The labeled dataset I used to fine-tune and train the Alpaca model can be found at: 
 https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?select=train.txt
 
 ## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
