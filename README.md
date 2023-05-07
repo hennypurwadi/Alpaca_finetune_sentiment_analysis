@@ -3,9 +3,6 @@
 Alpaca-LoRA is an open-source project that reproduces results from Stanford Alpaca using Low-Rank Adaptation (LoRA) techniques. It provides an Instruct model of similar quality to text-davinci-003.
 Alpaca-LoRA uses the resource-efficient low-rank adaptation (LoRA) method, also widely used in Stable Diffusion, with Meta’s LLaMA to achieve results comparable to Alpaca
 Alpaca formula is open source, but may not be used commercially. However, the LLaMA model used for Alpaca is not released for commercial use, and the OpenAI GPT-3.5 terms of use prohibit using the model to develop AI models that compete with OpenAI. Stanford has therefore not yet released the model, only the training data and the code to generate the data and fine-tune the model.
-Alpaca-LoRA uses the resource-efficient low-rank adaptation (LoRA) method, also widely used in Stable Diffusion, with Meta’s LLaMA to achieve results comparable to Alpaca.
-https://the-decoder.com/the-alpaca-formula-how-chatgpt-drives-open-source-ai-development/
-
 
 The labeled dataset used to fine-tune the Alpaca model can be found at:
 
