@@ -5,9 +5,11 @@ Alpaca-LoRA uses the resource-efficient low-rank adaptation (LoRA) method, also 
 Alpaca formula is open source, but may not be used commercially. However, the LLaMA model used for Alpaca is not released for commercial use, and the OpenAI GPT-3.5 terms of use prohibit using the model to develop AI models that compete with OpenAI. Stanford has therefore not yet released the model, only the training data and the code to generate the data and fine-tune the model.
 
 -----------------
+# BERT-base-uncased Fine-tuned for Sentiment Analysis
 
-The labeled dataset I used to fine-tune and train the Alpaca model can be found at: 
-https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?select=train.txt
+This model is a fine-tuned version of the `bert-base-uncased` model for sentiment analysis. 
+It is trained on a dataset of texts with six different emotions: anger, fear, joy, love, sadness, and surprise.
+The model was trained and tested on a labeled dataset from [Kaggle](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp).
 
 ## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
 
