@@ -13,21 +13,8 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
 ---
-language: en
 
-license: Apache license 2.0
-
-datasets:
-- custom
-
-task_categories:
-- text-classification
-
-task_ids:
-- sentiment-classification
-
----
-##Inference: 
+##Inference @HuggingFace: 
 
 To create Space in HuggingFace: https://huggingface.co/new-space (Select for CPU Upgrade or above).
 
