@@ -15,7 +15,7 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 ---
 language: en
 
-license: MIT
+license: Apache license 2.0
 
 datasets:
 - custom
@@ -27,33 +27,10 @@ task_ids:
 - sentiment-classification
 
 ---
+##Inference: 
 
-```python
+To create Space in HuggingFace: https://huggingface.co/new-space Select for minimum CPU Upgrade
 
-import os
-import sys
-import fire
-import gradio as gr
-import torch
-import transformers
-from peft import PeftModel
-from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
+https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
 
-!git clone https://github.com/tloen/alpaca-lora.git
-%cd alpaca-lora
-!git c!python generate.py \
-    --load_8bit \
-    --base_model 'decapoda-research/llama-7b-hf' \
-    --lora_weights 'RinInori/alpaca_finetune_6_sentiments' \
-    --share_gradio    
-
-!python generate.py \
-    --load_8bit \
-    --base_model 'decapoda-research/llama-7b-hf' \
-    --lora_weights 'RinInori/alpaca_finetune_6_sentiments' \
-    --share_gradio
-
-#Click on output
-Running on local URL:  http://......................
-
-Running on public URL: https://.....................
+Upload app.py and requirements.txt to https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments/tree/main
