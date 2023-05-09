@@ -11,7 +11,7 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 
 ## To RUN APP: https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
 
-## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
+### Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/imagesSaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
 ---
