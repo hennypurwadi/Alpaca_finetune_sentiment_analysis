@@ -9,9 +9,9 @@ This model is a fine-tuned version of the `Alpaca` model for sentiment analysis.
 It is trained on a dataset of texts with six different emotions: anger, fear, joy, love, sadness, and surprise.
 The model was trained and tested on a labeled dataset from [Kaggle](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp).
 
-## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
+## To RUN APP: https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
 
-To RUN APP: https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
+## Model Hub: https://huggingface.co/RinInori/alpaca_finetune_6_sentiments
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/imagesSaveModel_Tokenizer_To_HuggingFace_1.jpg?raw=true)
 ---
