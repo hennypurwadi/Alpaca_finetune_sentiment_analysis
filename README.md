@@ -29,7 +29,7 @@ task_ids:
 ---
 ##Inference: 
 
-To create Space in HuggingFace: https://huggingface.co/new-space Select for minimum CPU Upgrade
+To create Space in HuggingFace: https://huggingface.co/new-space (Select for CPU Upgrade or above).
 
 https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
 
