@@ -59,21 +59,16 @@ else:
 def generate_prompt(instruction, input=None):
     if input:
         return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
-
 ### Instruction:
 {instruction}
-
 ### Input:
 {input}
-
 ### Response:"""
     else:
         return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.
-
-### Instruction:
+### Instruction :
 {instruction}
-
-### Response:"""
+### Response :"""
 
 if device != "cpu":
     model.half()
@@ -123,7 +118,7 @@ g = gr.Interface(
         ),
         gr.components.Textbox(lines=2, label="Input", placeholder="none"),
         gr.components.Slider(minimum=0, maximum=1, value=0.1, label="Temperature"),
-        gr.components.Slider(minimum=0, maximum=1, value=0.75, label="Top p"),
+        gr.components.Slider(minimum=0, maximum=1, value=0.7, label="Top p"),
         gr.components.Slider(minimum=0, maximum=100, step=1, value=40, label="Top k"),
         gr.components.Slider(minimum=1, maximum=4, step=1, value=4, label="Beams"),
         gr.components.Slider(
@@ -137,10 +132,10 @@ g = gr.Interface(
         )
     ],
     title="Fine-tuned version of Alpaca Model",
-    description="This model is a fine-tuned version of the Alpaca model for sentiment analysis. \
+    description="This model is a fine-tuned version of the Alpaca model for sentiment analysis. https://github.com/hennypurwadi/Alpaca_finetune_sentiment_analysis \
     Alpaca-LoRA is a 7B-parameter LLaMA model finetuned to follow instructions. It is trained on the [Stanford Alpaca] \
     (https://github.com/tatsu-lab/stanford_alpaca) dataset and makes use of the Huggingface LLaMA implementation. \
-    It is trained on a dataset of texts with six different emotions: anger, fear, joy, love, sadness, and surprise. \
+    It is trained on a dataset to classify text as one of these six different emotions: anger, fear, joy, love, sadness, or surprise. \
     The model was trained and tested on a labeled dataset from Kaggle (https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp)",
 )
 
