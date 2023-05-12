@@ -24,3 +24,5 @@ To create Space in HuggingFace: https://huggingface.co/new-space (Select for CPU
 https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments
 
 Upload app.py and requirements.txt to https://huggingface.co/spaces/RinInori/alpaca_finetune_6_sentiments/tree/main
+
+ref: https://github.com/tloen/alpaca-lora
